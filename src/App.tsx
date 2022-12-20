@@ -12,7 +12,7 @@ function App() {
       <main className={styles.main}>
         <div>
           <h2>O que você vai fazer</h2>
-          <TaskForm />
+          <TaskForm btnText='Criar Tarefa'/>
         </div>
         <div>
           <h2>Suas tarefas</h2>
