@@ -10,6 +10,7 @@ import styles from "./App.module.css"
 
 //interface
 import { ITask } from './interfaces/Task';
+import Modal from './components/Modal';
 
 function App() {
   const [taskList,setTaskList] = useState<ITask[]>([])
@@ -23,6 +24,7 @@ function App() {
   }
   return (
     <div className="App">
+      <Modal/>
       <Header />
 
       <main className={styles.main}>
