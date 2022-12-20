@@ -1,9 +1,16 @@
 import React from 'react';
+//components
 import Footer from './components/Footer';
 import Header from './components/Header';
-import styles from "./App.module.css"
 import TaskForm from './components/TaskForm';
 import TaskList from './components/TaskList';
+
+//css
+import styles from "./App.module.css"
+
+//interface
+import { ITask } from './interfaces/Task';
+
 function App() {
   return (
     <div className="App">
